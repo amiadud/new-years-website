@@ -37,7 +37,10 @@
 }
 .banner-des{
     line-height: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.about-right li{
+    line-height: 30px;
 }
 /* about section */
 .about-container{
@@ -47,10 +50,9 @@
     height: 100vh;
     padding: 130px;
 }
-.about-right li{
+.about-right .list-name{
     list-style: none;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 15px;
 
 }
 .about-title{
