@@ -15,7 +15,7 @@
 /* banner container */
 
 .banner-container{
-    background-image: url('/images/banner/banner2.png');
+    background-image: url('./images/banner/banner2.png');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: right; 
@@ -81,7 +81,6 @@
     padding: 40px;
 }
 .plan-container > .plain-item:hover{
-    background-color: aquamarine;
     transition: 0.5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -94,7 +93,7 @@
 }
 .mindset-container{
     width: 1140px;
-    background-image: url('/images/gradient2.png'), url('/images/watch.png');
+    background-image: url('./images/gradient2.png'), url('./images/watch.png');
     background-repeat: no-repeat;
     display: block;
     align-items: center;
