@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+/* banner container */
+
+.banner-container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100vh;
+    background-image: url('/images/banner/banner1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+.right-side{
+    margin-left: 100vh;
+    text-align: right;
+    
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.banner-des{
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+/* about section */
+.about-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding: 130px;
+}
+.about-right li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.about-title{
+    font-size: 50px;
+}
+.fa-check{
+    margin-right: 10px;
+    color:cyan;
+    line-height: 30px;
+}
+/* plan container */
+.plan-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.plan-header{
+    font-size: 50px;
+    text-align: center;
+}
+.plan-container > .plain-item{
+    text-align: center;
+    padding: 40px;
+}
+.plan-container .plan-title{
+    font-size: 40px;
+}
+.plan-des{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.mindset-container{
+    background-image: url('./images/gradient2.png'), url('./images/watch.png');
+    background-repeat: no-repeat;
+    display: block;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    padding: 30px;
+}
+.mind-set-body{
+    text-align: left;
+    padding: 30px;
+}
+.mind-title{
+    font-size: 50px;
+    color:white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.mind-button{
+    color: #FD6E0A;
+    background-color: white;
+}
+.footer-container{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.footer-contact > p{
+    line-height: 30px;
+}
+.footer-des{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.icons img{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footer-right input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 80px;
+    text-align: left;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%;
+}
+.email-input{
+    font-size: 20px;
+    border: 3px solid red;
+}
+.subs-btn{
+    background-color: white;
+    color:#FD6E0A;
+}
